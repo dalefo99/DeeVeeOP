@@ -4,6 +4,7 @@
     <UserSecretsId>aspnet-DeeVeeOP-F5D4D2D0-1032-4552-9A9D-946F66C8D238</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="bootstrap" Version="4.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" PrivateAssets="All" />
@@ -12,5 +13,15 @@
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
     <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\lib\scripts\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\scripts\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\scripts\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\scripts\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\scripts\bootstrap.js" />
+    <None Include="wwwroot\lib\scripts\bootstrap.js.map" />
+    <None Include="wwwroot\lib\scripts\bootstrap.min.js" />
+    <None Include="wwwroot\lib\scripts\bootstrap.min.js.map" />
   </ItemGroup>
 </Project>
